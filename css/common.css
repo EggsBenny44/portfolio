@@ -69,23 +69,23 @@ input, select, textarea {
   font-size   : 100%;
 }
 
-ul {
+
+.menu-item ul {
   height:100%;
   display: flex;
   align-items: center;
-  /*justify-content: flex-end;*/
   list-style-type: none;
   margin: 0;
 }
 
-li {
+.menu-item ul li {
     display: box;
     float: right;
     box-align: center;
+  font-family: 'Homenaje', sans-serif;    
 }
 
-li a {
-  /*background-color: #336699;*/
+.menu-item ul li a {
   color: #336699;
   display: block;
   text-decoration: none;
@@ -93,15 +93,14 @@ li a {
   align-self:center;
   white-space: nowrap;
   padding: 15px;
-  font-family: 'Homenaje', sans-serif;
 }
 
-li a:hover {
+.menu-item ul li a:hover {
   color: #53cde2;
   display: block;
 }
 
-li a.disabled{
+.menu-item ul li a.disabled{
     pointer-events: none;
     color: #393e46;
 }
@@ -188,6 +187,10 @@ label {
 .link1 p.link-in a:hover {
  background: #9fe8fa;
 }
+
+
+
+
 
 .link1 p.link-git {
   box-sizing: border-box;

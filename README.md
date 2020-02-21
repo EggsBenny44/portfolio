@@ -1,9 +1,13 @@
 # Name
 Portfolio
 
-# Description
+# Demo
+https://eggsbenny44.github.io/portfolio/
+
+# Features
 This is my GitHub portfolio.
-It can be seen the URL, 'https://eggsbenny44.github.io/portfolio/'.
+
+# Note
 It is created based on my website, 'https://eggs-benny.com'
 
 # Authour
